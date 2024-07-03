@@ -27,6 +27,16 @@
         		    &macro_tap &kp C &kp H
 	          >;
         };
+        macro_qu: macro_sch {
+            label = "Macro_qu";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+        		    &macro_tap &kp Q
+        		    &macro_release &kp RSHIFT
+        		    &macro_tap &kp U
+	          >;
+        };
     };
 };
 
@@ -53,7 +63,8 @@ combo_##NAME { \
         COMBO(slash, &kp SLASH, 22 23)
         COMBO(dash, &kp MINUS, 21 22)
 //        COMBO(enter, &kp ENTER, 21 22 23)
-        COMBO(enter, &kp ENTER, 21 23)
+        // COMBO(enter, &kp ENTER, 21 23)
+        COMBO(enter, &kp SQT, 22 27)
         COMBO(esc, &kp ESC, 19 20)
 /* parentheticals */
         COMBO(lbrc, &kp LBRC, 0 9)
@@ -68,38 +79,10 @@ combo_##NAME { \
         COMBO(caps, &caps_word, 11 14)
         COMBO(capslock, &kp CAPSLOCK, 0 7)
 /* deletion */
-        COMBO(bspc, &kp BSPC, 5 6)
+        COMBO(bspc, &kp BSPC, 21 26)
         COMBO(del, &kp DEL, 6 7)
         COMBO(delword, &kp LC(BSPC), 5 7)
 /* alternative shifting */
-        COMBO(Sq, &kp LS(Q), 1 2 25)
-        COMBO(Sz, &kp LS(Z), 18 19 25)
-        COMBO(Sv, &kp LS(V), 0 1 25)
-        COMBO(Sw, &kp LS(W), 0 25)
-        COMBO(Sf, &kp LS(F), 1 25)
-        COMBO(Sp, &kp LS(P), 2 25)
-        COMBO(Sb, &kp LS(B), 3 25)
-        COMBO(Sj, &kp LS(J), 4 26)
-        COMBO(Sl, &kp LS(L), 5 26)
-        COMBO(Su, &kp LS(U), 6 26)
-        COMBO(Sy, &kp LS(Y), 7 26)
-        COMBO(Sr, &kp LS(R), 8 25)
-        COMBO(Ss, &kp LS(S), 9 25)
-        COMBO(St, &kp LS(T), 10 25)
-        COMBO(Sh, &kp LS(H), 11 25)
-        COMBO(Sk, &kp LS(K), 12 25)
-        COMBO(Sx, &kp LS(X), 13 26)
-        COMBO(Sn, &kp LS(N), 14 26)
-        COMBO(Sa, &kp LS(A), 15 26)
-        COMBO(Si, &kp LS(I), 16 26)
-        COMBO(So, &kp LS(O), 17 26)
-        COMBO(Sc, &kp LS(C), 18 25)
-        COMBO(Sg, &kp LS(G), 19 25)
-        COMBO(Sd, &kp LS(D), 20 25)
-        COMBO(Sm, &kp LS(M), 21 26)
-        COMBO(Scomma, &kp SEMI, 22 26)
-        COMBO(Sdot, &kp COLON, 23 26)
-        COMBO(Se, &kp LS(E), 14 15 26)
     };
 };
 
