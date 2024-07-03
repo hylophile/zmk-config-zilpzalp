@@ -27,6 +27,11 @@
         		    &macro_tap &kp C &kp H
 	          >;
         };
+    };
+};
+    
+/ {
+    macros {
         macro_qu: macro_sch {
             label = "Macro_qu";
             compatible = "zmk,behavior-macro";
@@ -64,7 +69,7 @@ combo_##NAME { \
         COMBO(dash, &kp MINUS, 21 22)
 //        COMBO(enter, &kp ENTER, 21 22 23)
         // COMBO(enter, &kp ENTER, 21 23)
-        COMBO(enter, &kp SQT, 22 27)
+        COMBO(sqt, &kp SQT, 22 27)
         COMBO(esc, &kp ESC, 19 20)
 /* parentheticals */
         COMBO(lbrc, &kp LBRC, 0 9)
