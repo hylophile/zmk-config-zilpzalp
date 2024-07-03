@@ -57,7 +57,7 @@ combo_##NAME { \
     combos {
         compatible = "zmk,combos";
 /* usually on base layer */
-        COMBO(q, &kp Q, 1 2)
+         COMBO(q, &kp Q, 1 2)
         COMBO(z, &kp Z, 18 19)
         COMBO(v, &kp V, 0 1)
         COMBO(_ae, &kp RA(A), 15 26)
@@ -69,8 +69,8 @@ combo_##NAME { \
         COMBO(dash, &kp MINUS, 21 22)
 //        COMBO(enter, &kp ENTER, 21 22 23)
         // COMBO(enter, &kp ENTER, 21 23)
-        COMBO(sqt, &kp SQT, 22 27)
-        COMBO(esc, &kp ESC, 19 20)
+        COMBO(sqt, &kp SQT, 16 23)
+        COMBO(esc, &kp ESC, 14 21)
 /* parentheticals */
         COMBO(lbrc, &kp LBRC, 0 9)
         COMBO(lbkt, &kp LBKT, 1 10)
@@ -84,7 +84,7 @@ combo_##NAME { \
         COMBO(caps, &caps_word, 11 14)
         COMBO(capslock, &kp CAPSLOCK, 0 7)
 /* deletion */
-        COMBO(bspc, &kp BSPC, 21 26)
+        COMBO(bspc, &kp BSPC, 11 20)
         COMBO(del, &kp DEL, 6 7)
         COMBO(delword, &kp LC(BSPC), 5 7)
 /* alternative shifting */
