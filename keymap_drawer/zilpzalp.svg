@@ -1,4 +1,4 @@
-<svg width="852" height="1742" viewBox="0 0 852 1742" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="1719" height="1332" viewBox="0 0 1719 1332" class="keymap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>/* start glyphs */
 <svg id="mdi:apple-keyboard-caps">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-apple-keyboard-caps" viewBox="0 0 24 24"><path d="M15,14V8H17.17L12,2.83L6.83,8H9V14H15M12,0L22,10H17V16H7V10H2L12,0M7,18H17V24H7V18M15,20H9V22H15V20Z" /></svg>
@@ -18,9 +18,6 @@
 <svg id="mdi:backspace-outline">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-backspace-outline" viewBox="0 0 24 24"><path d="M19,15.59L17.59,17L14,13.41L10.41,17L9,15.59L12.59,12L9,8.41L10.41,7L14,10.59L17.59,7L19,8.41L15.41,12L19,15.59M22,3A2,2 0 0,1 24,5V19A2,2 0 0,1 22,21H7C6.31,21 5.77,20.64 5.41,20.11L0,12L5.41,3.88C5.77,3.35 6.31,3 7,3H22M22,5H7L2.28,12L7,19H22V5Z" /></svg>
 </svg>
-<svg id="mdi:keyboard-esc">
-<svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-esc" viewBox="0 0 24 24"><path d="M1 7H7V9H3V11H7V13H3V15H7V17H1V7M11 7H15V9H11V11H13C14.11 11 15 11.9 15 13V15C15 16.11 14.11 17 13 17H9V15H13V13H11C9.9 13 9 12.11 9 11V9C9 7.9 9.9 7 11 7M19 7H21C22.11 7 23 7.9 23 9V10H21V9H19V15H21V14H23V15C23 16.11 22.11 17 21 17H19C17.9 17 17 16.11 17 15V9C17 7.9 17.9 7 19 7Z" /></svg>
-</svg>
 <svg id="mdi:keyboard-return">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-keyboard-return" viewBox="0 0 24 24"><path d="M19,7V11H5.83L9.41,7.41L8,6L2,12L8,18L9.41,16.58L5.83,13H21V7H19Z" /></svg>
 </svg>
@@ -38,6 +35,620 @@
 </svg>
 <svg id="mdi:volume-off">
 <svg xmlns="http://www.w3.org/2000/svg" id="mdi-volume-off" viewBox="0 0 24 24"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
+</svg>
+<svg id="test:alt">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  
+  
+   viewBox="0 0 6.3499999 6.35"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="alt.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="19.513651"
+     inkscape:cx="8.404373"
+     inkscape:cy="6.9182339"
+     inkscape:window-width="2533"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 4.1036374,1.975446 H 5.4988741 L 4.7906167,1.2671886 5.1553845,0.90242083 6.3499989,2.0970353 V 2.3706111 L 5.1553845,3.5652255 4.7906167,3.2004578 5.4988741,2.4922004 H 4.3711338 L 2.1217325,5.5562496 H 0 V 5.0394953 h 1.8542362 z m -0.00608,3.5808036 V 5.0394953 h 2.127812 v 0.5167543 z"
+       id="text2"
+       style="font-size:6.22537px;font-family:ProggyCleanTT;-inkscape-font-specification:ProggyCleanTT;text-align:center;text-anchor:middle;stroke-width:0.0778172;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       aria-label="⎇" />
+  </g>
+</svg>
+
+</svg>
+<svg id="test:control">
+<svg
+   id="mdi-ship-wheel"
+   viewBox="0 0 24 24"
+   version="1.1"
+  
+  
+   sodipodi:docname="control.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   inkscape:export-filename="helmp.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="true"
+     inkscape:zoom="32"
+     inkscape:cx="14.0625"
+     inkscape:cy="13.90625"
+     inkscape:window-width="2533"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="1"
+       spacingy="1"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect3"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect2"
+       is_visible="true"
+       lpeversion="1.3"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false"
+       uniform="false" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer 1"
+     style="opacity:1;stroke:#000000;stroke-opacity:1">
+    <circle
+       style="opacity:1;fill:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;paint-order:markers stroke fill;stroke:#000000;stroke-opacity:1;stroke-dasharray:none"
+       id="path1"
+       cx="12"
+       cy="12"
+       r="8" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 12,23 C 12,15.666667 12,8.3333333 12,1"
+       id="path2"
+       inkscape:path-effect="#path-effect2"
+       inkscape:original-d="M 12,23 C 12,15.666667 12,8.3333333 12,1" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 2.4263237,17.527003 C 8.8084964,13.842219 15.190669,10.157436 21.572841,6.4726521"
+       id="path3"
+       inkscape:path-effect="#path-effect3"
+       inkscape:original-d="M 2.4263237,17.527003 C 8.8084963,13.842219 15.190669,10.157436 21.572841,6.4726521" />
+    <path
+       style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 2.4263237,6.4726521 C 8.8084964,10.157436 15.190669,13.842219 21.572841,17.527003"
+       id="path4"
+       inkscape:path-effect="#path-effect4"
+       inkscape:original-d="M 2.4263237,6.4726521 C 8.8084963,10.157436 15.190669,13.842219 21.572841,17.527003" />
+  </g>
+</svg>
+
+</svg>
+<svg id="test:escape">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  
+  
+   viewBox="0 0 6.3499999 6.35"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="escape.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="false"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="22.627417"
+     inkscape:cx="-0.48613591"
+     inkscape:cy="20.771262"
+     inkscape:window-width="2533"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1"
+     showguides="true">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+    <sodipodi:guide
+       position="0.50528025,3.0824226"
+       orientation="1,0"
+       id="guide4"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="3.254591,5.8452635"
+       orientation="0,-1"
+       id="guide5"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <filter
+       id="selectable_hidder_filter"
+      
+      
+       x="0"
+       y="0"
+       style="color-interpolation-filters:sRGB;"
+       inkscape:label="LPE boolean visibility">
+      <feComposite
+         id="boolops_hidder_primitive"
+         result="composite1"
+         operator="arithmetic"
+         in2="SourceGraphic"
+         in="BackgroundImage" />
+    </filter>
+    <inkscape:path-effect
+       effect="bool_op"
+       operand-path=""
+       id="path-effect4"
+       is_visible="true"
+       lpeversion="1"
+       operation="diff"
+       swap-operands="false"
+       filltype-this="from-curve"
+       filter=""
+       filltype-operand="from-curve" />
+  </defs>
+  <g
+     id="g2"
+     transform="translate(6.1559688,0.19798907)"
+     style="opacity:0.0408654">
+    <g
+       inkscape:label="Layer 1"
+       inkscape:groupmode="layer"
+       id="layer1">
+      <title
+         id="title1">arrow-up-circle</title>
+      <path
+         d="m 3.3072916,0.52916663 c 1.3890626,0 2.5135418,1.12447917 2.5135418,2.51354157 0,1.3890625 -1.1244792,2.5135417 -2.5135418,2.5135417 -1.3890625,0 -2.51354164,-1.1244792 -2.51354164,-2.5135417 0,-1.3890624 1.12447914,-2.51354157 2.51354164,-2.51354157 m 0,0.2645833 c -1.2408958,0 -2.2489583,1.00806247 -2.2489583,2.24895827 0,1.2408959 1.0080625,2.2489584 2.2489583,2.2489584 1.2408958,0 2.2489583,-1.0080625 2.2489583,-2.2489584 0,-1.2408958 -1.0080625,-2.24895827 -2.2489583,-2.24895827 z"
+         id="path1"
+         style="stroke-width:0.264583"
+         sodipodi:nodetypes="cssscsssss" />
+    </g>
+    <g
+       inkscape:groupmode="layer"
+       id="layer2"
+       inkscape:label="Layer 2">
+      <path
+         d="M 4.1173855,4.1784144 2.5739039,2.6349329 v 1.2160763 l -0.2637949,0.016838 -1e-7,-1.6837981 h 1.683798 l -0.016838,0.263795 H 2.7609926 L 4.3044741,3.9913257 4.1173854,4.1784144"
+         style="stroke-width:0.264583"
+         id="path1-2" />
+    </g>
+  </g>
+  <rect
+     style="opacity:0.474329;fill:none;fill-opacity:1;stroke:none;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+     id="rect2"
+    
+    
+     x="0"
+     y="0" />
+  <g
+     id="g3"
+     style="display:inline;opacity:1">
+    <path
+       style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 0.50528015,2.0478006 V 0.50431892 H 2.0487616"
+       id="path4"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:0.529167;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+       d="M 3.9516204,3.9506593 0.50528025,0.50431892"
+       id="path3"
+       sodipodi:nodetypes="cc" />
+  </g>
+  <path
+     id="path2"
+     style="display:inline;opacity:1;fill:none;stroke:#000000;stroke-width:0.52916666;stroke-linecap:butt;stroke-linejoin:bevel;paint-order:markers stroke fill;stroke-dasharray:none"
+     d="m 3.1484809,0.50264764 c 1.4612533,6e-8 2.6458332,1.18457996 2.6458332,2.64583326 -1e-7,1.4612533 -1.1845799,2.6458331 -2.6458332,2.6458332 -1.4612533,0 -2.6458332,-1.1845799 -2.64583326,-2.6458332"
+     inkscape:path-effect="#path-effect4"
+     inkscape:original-d="m 3.1484809,0.50264764 c 1.4612533,6e-8 2.6458332,1.18457996 2.6458332,2.64583326 -1e-7,1.4612533 -1.1845799,2.6458331 -2.6458332,2.6458332 -1.4612533,0 -2.6458332,-1.1845799 -2.64583326,-2.6458332"
+     sodipodi:nodetypes="cssc" />
+</svg>
+
+</svg>
+<svg id="test:gui">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  
+  
+   viewBox="0 0 6.3499999 6.35"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="gui.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="39.027301"
+     inkscape:cx="13.785222"
+     inkscape:cy="9.3780504"
+     inkscape:window-width="2533"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1">
+    <inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       d="M 2.5e-8,3.1665107 1.4389372,1.7275735 2.8778743,3.1665107 1.4389372,4.6054479 Z m 3.472125575,0 L 4.9153075,1.7318183 6.3499999,3.1665107 4.9153075,4.6139372 Z M 1.7445521,1.4474266 3.1834892,9.5e-8 4.6224264,1.4474266 3.1834892,2.8821191 Z m 0,3.4636362 1.4389371,-1.4389371 1.4389372,1.4389371 -1.4389372,1.4389371 z"
+       id="text1"
+       style="font-size:42.3333px;font-family:ProggyCleanTT;-inkscape-font-specification:ProggyCleanTT;text-align:center;text-anchor:middle;stroke-width:0.108663;stroke-linejoin:bevel;paint-order:markers stroke fill"
+       aria-label="❖" />
+  </g>
+</svg>
+
+</svg>
+<svg id="test:shift">
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+  
+  
+   viewBox="0 0 6.3499999 6.35"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   sodipodi:docname="shift.svg"
+   xml:space="preserve"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#cccccc"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="1"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     showgrid="true"
+     inkscape:zoom="39.027301"
+     inkscape:cx="11.222913"
+     inkscape:cy="9.9930045"
+     inkscape:window-width="2533"
+     inkscape:window-height="1414"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1"><inkscape:grid
+       id="grid1"
+       units="px"
+       originx="0"
+       originy="0"
+       spacingx="0.26458333"
+       spacingy="0.26458333"
+       empcolor="#0099e5"
+       empopacity="0.30196078"
+       color="#0099e5"
+       opacity="0.14901961"
+       empspacing="5"
+       dotted="false"
+       gridanglex="30"
+       gridanglez="30"
+       visible="true" /></sodipodi:namedview><defs
+     id="defs1" /><g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"><g
+       id="g2"
+       transform="matrix(0.021161,0,0,0.021161,7.5996505,0.17993845)"
+       style="display:inline"><line
+         x1="299.99219"
+         y1="299.99323"
+         x2="275.99921"
+         y2="299.99323"
+         id="line3"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="299.99219"
+         y1="0.088200003"
+         x2="275.99921"
+         y2="0.088200003"
+         id="line5"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="299.99219"
+         y1="299.99323"
+         x2="299.99219"
+         y2="276.00122"
+         id="line7"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="299.99219"
+         y1="0.088200003"
+         x2="299.99219"
+         y2="24.080204"
+         id="line9"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="0.088200003"
+         y1="299.99323"
+         x2="24.080189"
+         y2="299.99323"
+         id="line11"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="0.088200003"
+         y1="299.99323"
+         x2="0.088200003"
+         y2="276.00122"
+         id="line13"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="0.088200003"
+         y1="0.088200003"
+         x2="0.088200003"
+         y2="24.080204"
+         id="line15"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="0.088200003"
+         y1="0.088200003"
+         x2="24.080189"
+         y2="0.088200003"
+         id="line17"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="150.04019"
+         y1="8.0862007"
+         x2="18.623188"
+         y2="154.04019"
+         id="line19"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="150.04019"
+         y1="8.0862007"
+         x2="281.45718"
+         y2="154.04019"
+         id="line21"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="150.04019"
+         y1="20.039188"
+         x2="263.4942"
+         y2="146.04221"
+         id="line23"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="150.04019"
+         y1="20.039188"
+         x2="36.585194"
+         y2="146.04221"
+         id="line25"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="84.061195"
+         y1="278.00018"
+         x2="216.0192"
+         y2="278.00018"
+         id="line27"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="92.059196"
+         y1="270.00317"
+         x2="208.02118"
+         y2="270.00317"
+         id="line29"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="216.0192"
+         y1="154.04019"
+         x2="281.45718"
+         y2="154.04019"
+         id="line31"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="208.02118"
+         y1="146.04221"
+         x2="263.4942"
+         y2="146.04221"
+         id="line33"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="208.02118"
+         y1="146.04221"
+         x2="208.02118"
+         y2="270.00317"
+         id="line35"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="216.0192"
+         y1="154.04019"
+         x2="216.0192"
+         y2="278.00018"
+         id="line37"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="84.061195"
+         y1="154.04019"
+         x2="84.061195"
+         y2="278.00018"
+         id="line39"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="92.059196"
+         y1="146.04221"
+         x2="92.059196"
+         y2="270.00317"
+         id="line41"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="18.623188"
+         y1="154.04019"
+         x2="84.061195"
+         y2="154.04019"
+         id="line43"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><line
+         x1="36.585194"
+         y1="146.04221"
+         x2="92.059196"
+         y2="146.04221"
+         id="line45"
+         style="fill:none;stroke:#000000;stroke-width:0.1764;stroke-linecap:round;stroke-linejoin:round" /><path
+         clip-rule="evenodd"
+         d="m 36.585196,146.0422 h 55.474 v 123.961 H 208.0222 v -123.961 h 55.473 L 150.0402,20.039203 Z M 150.0402,8.0862029 281.4572,154.0402 h -65.438 v 123.96 H 84.061196 v -123.96 h -65.438 L 150.0402,8.0862029"
+         id="path47"
+         inkscape:connector-curvature="0"
+         style="fill-rule:evenodd" /></g></g><g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Layer 2"
+     style="display:inline"><path
+       clip-rule="evenodd"
+       d="M 0.77417853,3.1955161 H 1.9480639 V 5.8186548 H 4.401957 V 3.1955161 H 5.5758212 L 3.1749999,0.52916663 Z"
+       id="path47-6"
+       inkscape:connector-curvature="0"
+       style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.529167;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       sodipodi:nodetypes="cccccccc" /></g></svg>
+
 </svg>
 </defs>/* end glyphs */
 <style>/* inherit to force styles through use tags */
@@ -155,7 +766,7 @@ path.combo {
 </style>
 <g transform="translate(30, 0)" class="layer-aptmak">
 <text x="0" y="28" class="label">aptmak:</text>
-<g transform="translate(0, 107)">
+<g transform="translate(0, 74)">
 <g transform="translate(99, 33)" class="key keypos-0">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">W</text>
@@ -195,42 +806,42 @@ path.combo {
 <g transform="translate(99, 99)" class="key keypos-9">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">S</text>
-<text x="0" y="18" class="key hold">LALT</text>
+<use href="#test:alt" xlink:href="#test:alt" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:alt"/>
 </g>
 <g transform="translate(165, 99)" class="key keypos-10">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">T</text>
-<text x="0" y="18" class="key hold">LSHFT</text>
+<use href="#test:shift" xlink:href="#test:shift" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:shift"/>
 </g>
 <g transform="translate(231, 99)" class="key keypos-11">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">H</text>
-<text x="0" y="18" class="key hold">LCTRL</text>
+<use href="#test:control" xlink:href="#test:control" x="-6" y="6" height="12" width="12.0" class="key hold glyph test:control"/>
 </g>
 <g transform="translate(297, 132)" class="key keypos-12">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">K</text>
-<text x="0" y="18" class="key hold">LGUI</text>
+<use href="#test:gui" xlink:href="#test:gui" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:gui"/>
 </g>
 <g transform="translate(495, 132)" class="key keypos-13">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">X</text>
-<text x="0" y="18" class="key hold">LGUI</text>
+<use href="#test:gui" xlink:href="#test:gui" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:gui"/>
 </g>
 <g transform="translate(561, 99)" class="key keypos-14">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">N</text>
-<text x="0" y="18" class="key hold">RCTRL</text>
+<use href="#test:control" xlink:href="#test:control" x="-6" y="6" height="12" width="12.0" class="key hold glyph test:control"/>
 </g>
 <g transform="translate(627, 99)" class="key keypos-15">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">A</text>
-<text x="0" y="18" class="key hold">RSHFT</text>
+<use href="#test:shift" xlink:href="#test:shift" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:shift"/>
 </g>
 <g transform="translate(693, 99)" class="key keypos-16">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">I</text>
-<text x="0" y="18" class="key hold">LALT</text>
+<use href="#test:alt" xlink:href="#test:alt" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:alt"/>
 </g>
 <g transform="translate(759, 165)" class="key keypos-17">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
@@ -264,7 +875,7 @@ path.combo {
 </g>
 <g transform="translate(264, 231)" class="key keypos-24">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
-<text x="0" y="0" class="key tap">LSHIFT</text>
+<use href="#test:shift" xlink:href="#test:shift" x="-7" y="-7" height="14" width="13.99999977952756" class="key tap glyph test:shift"/>
 <text x="0" y="18" class="key hold">numbers</text>
 </g>
 <g transform="translate(330, 231)" class="key keypos-25">
@@ -319,10 +930,8 @@ path.combo {
 <text x="214" y="286" class="combo tap">ẞ</text>
 </g>
 <g class="combo combopos-7">
-<path d="M165,-22 h-60 a6.0,6.0 0 0 0 -6.0,6.0 v26" class="combo"/>
-<path d="M165,-22 h60 a6.0,6.0 0 0 1 6.0,6.0 v26" class="combo"/>
-<rect rx="60" ry="6" x="151" y="-34" width="28" height="26" class="combo"/>
-<text x="165" y="-22" class="combo tap">SCH</text>
+<rect rx="60" ry="6" x="85" y="119" width="28" height="26" class="combo"/>
+<text x="99" y="132" class="combo tap">SCH</text>
 </g>
 <g class="combo combopos-8">
 <rect rx="60" ry="6" x="613" y="119" width="28" height="26" class="combo"/>
@@ -348,7 +957,7 @@ path.combo {
 </g>
 <g class="combo combopos-13">
 <rect rx="60" ry="6" x="547" y="119" width="28" height="26" class="combo"/>
-<use href="#mdi:keyboard-esc" xlink:href="#mdi:keyboard-esc" x="554" y="125" height="14" width="14.0" class="combo tap glyph mdi:keyboard-esc"/>
+<use href="#test:escape" xlink:href="#test:escape" x="554" y="125" height="14" width="13.99999977952756" class="combo tap glyph test:escape"/>
 </g>
 <g class="combo combopos-14">
 <rect rx="60" ry="6" x="85" y="53" width="28" height="26" class="combo"/>
@@ -382,27 +991,13 @@ path.combo {
 <rect rx="60" ry="6" x="679" y="53" width="28" height="26" class="combo"/>
 <text x="693" y="66" class="combo tap">}</text>
 </g>
-<g class="combo combopos-22">
-<path d="M396,99 l-143,0" class="combo"/>
-<path d="M396,99 l143,0" class="combo"/>
-<rect rx="60" ry="6" x="382" y="86" width="28" height="26" class="combo"/>
-<text x="396" y="99" class="combo tap">
-<tspan x="396" dy="-0.6em">Caps</tspan><tspan x="396" dy="1.2em">Word</tspan>
-</text>
-</g>
-<g class="combo combopos-23">
-<path d="M396,-38 h-291 a6.0,6.0 0 0 0 -6.0,6.0 v43" class="combo"/>
-<path d="M396,-38 h291 a6.0,6.0 0 0 1 6.0,6.0 v43" class="combo"/>
-<rect rx="60" ry="6" x="382" y="-51" width="28" height="26" class="combo"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="389" y="-45" height="14" width="14.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
-</g>
-<g class="combo backspace combopos-24">
+<g class="combo backspace combopos-22">
 <rect rx="60" ry="6" x="151" y="119" width="28" height="26" class="combo backspace"/>
 <use href="#mdi:backspace-outline" xlink:href="#mdi:backspace-outline" x="158" y="125" height="14" width="14.0" class="combo backspace tap glyph mdi:backspace-outline"/>
 </g>
 </g>
 </g>
-<g transform="translate(30, 406)" class="layer-numbers">
+<g transform="translate(882, 0)" class="layer-numbers">
 <text x="0" y="28" class="label">numbers:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(99, 33)" class="key keypos-0">
@@ -435,22 +1030,22 @@ path.combo {
 <g transform="translate(33, 165)" class="key keypos-8">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">+</text>
-<text x="0" y="18" class="key hold">LCTRL</text>
+<use href="#test:control" xlink:href="#test:control" x="-6" y="6" height="12" width="12.0" class="key hold glyph test:control"/>
 </g>
 <g transform="translate(99, 99)" class="key keypos-9">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">-</text>
-<text x="0" y="18" class="key hold">LALT</text>
+<use href="#test:alt" xlink:href="#test:alt" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:alt"/>
 </g>
 <g transform="translate(165, 99)" class="key keypos-10">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">*</text>
-<text x="0" y="18" class="key hold">LGUI</text>
+<use href="#test:gui" xlink:href="#test:gui" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:gui"/>
 </g>
 <g transform="translate(231, 99)" class="key keypos-11">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
 <text x="0" y="0" class="key tap">/</text>
-<text x="0" y="18" class="key hold">LSHFT</text>
+<use href="#test:shift" xlink:href="#test:shift" x="-6" y="6" height="12" width="11.999999811023622" class="key hold glyph test:shift"/>
 </g>
 <g transform="translate(297, 132)" class="key keypos-12">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
@@ -517,7 +1112,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 726)" class="layer-navigation">
+<g transform="translate(30, 372)" class="layer-navigation">
 <text x="0" y="28" class="label">navigation:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(99, 33)" class="key keypos-0">
@@ -557,22 +1152,22 @@ path.combo {
 </g>
 <g transform="translate(33, 165)" class="key keypos-8">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
-<text x="0" y="0" class="key tap">LCTRL</text>
+<use href="#test:control" xlink:href="#test:control" x="-7" y="-7" height="14" width="14.0" class="key tap glyph test:control"/>
 <text x="0" y="18" class="key hold">sticky</text>
 </g>
 <g transform="translate(99, 99)" class="key keypos-9">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
-<text x="0" y="0" class="key tap">LALT</text>
+<use href="#test:alt" xlink:href="#test:alt" x="-7" y="-7" height="14" width="13.99999977952756" class="key tap glyph test:alt"/>
 <text x="0" y="18" class="key hold">sticky</text>
 </g>
 <g transform="translate(165, 99)" class="key keypos-10">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
-<text x="0" y="0" class="key tap">LGUI</text>
+<use href="#test:gui" xlink:href="#test:gui" x="-7" y="-7" height="14" width="13.99999977952756" class="key tap glyph test:gui"/>
 <text x="0" y="18" class="key hold">sticky</text>
 </g>
 <g transform="translate(231, 99)" class="key keypos-11">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key"/>
-<text x="0" y="0" class="key tap">LSHFT</text>
+<use href="#test:shift" xlink:href="#test:shift" x="-7" y="-7" height="14" width="13.99999977952756" class="key tap glyph test:shift"/>
 <text x="0" y="18" class="key hold">sticky</text>
 </g>
 <g transform="translate(297, 132)" class="key keypos-12">
@@ -644,7 +1239,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1046)" class="layer-symbols">
+<g transform="translate(882, 372)" class="layer-symbols">
 <text x="0" y="28" class="label">symbols:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(99, 33)" class="key keypos-0">
@@ -750,7 +1345,7 @@ path.combo {
 </g>
 </g>
 </g>
-<g transform="translate(30, 1366)" class="layer-function">
+<g transform="translate(30, 692)" class="layer-function">
 <text x="0" y="28" class="label">function:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(99, 33)" class="key keypos-0">
@@ -863,6 +1458,191 @@ path.combo {
 </g>
 <g transform="translate(528, 231)" class="key held keypos-27">
 <rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key held"/>
+</g>
+</g>
+</g>
+<text x="30" y="1040" class="label">Combos:</text>
+<g transform="translate(30, 1012)" class="layer-combopos-0">
+<g transform="translate(0, 56)">
+<g transform="translate(33, 33)" class="key  combo-separate keypos-0">
+<rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key  combo-separate"/>
+<text x="0" y="0" class="key  combo-separate tap"><tspan style="font-size: 70%">&amp;caps_word</tspan></text>
+</g>
+<g transform="translate(50, 92)" class="key keypos-1">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(82, 92)" class="key keypos-2">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 92)" class="key keypos-3">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(148, 109)" class="key keypos-4">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(248, 109)" class="key keypos-5">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 92)" class="key keypos-6">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(314, 92)" class="key keypos-7">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 92)" class="key keypos-8">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(16, 158)" class="key keypos-9">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(50, 126)" class="key keypos-10">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(82, 126)" class="key keypos-11">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 126)" class="key held keypos-12">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key held"/>
+</g>
+<g transform="translate(148, 142)" class="key keypos-13">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(248, 142)" class="key keypos-14">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 126)" class="key held keypos-15">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key held"/>
+</g>
+<g transform="translate(314, 126)" class="key keypos-16">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 126)" class="key keypos-17">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(380, 158)" class="key keypos-18">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(50, 158)" class="key keypos-19">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(82, 158)" class="key keypos-20">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 158)" class="key keypos-21">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 158)" class="key keypos-22">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(314, 158)" class="key keypos-23">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 158)" class="key keypos-24">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(132, 192)" class="key keypos-25">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(165, 192)" class="key keypos-26">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(231, 192)" class="key keypos-27">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(264, 192)" class="key keypos-28">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+</g>
+</g>
+<g transform="translate(456, 1012)" class="layer-combopos-1">
+<g transform="translate(0, 56)">
+<g transform="translate(33, 33)" class="key  combo-separate keypos-0">
+<rect rx="60" ry="6" x="-23" y="-23" width="46" height="46" class="key  combo-separate"/>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-7" y="-7" height="14" width="14.0" class="key  combo-separate tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g transform="translate(50, 92)" class="key held keypos-1">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key held"/>
+</g>
+<g transform="translate(82, 92)" class="key keypos-2">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 92)" class="key keypos-3">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(148, 109)" class="key keypos-4">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(248, 109)" class="key keypos-5">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 92)" class="key keypos-6">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(314, 92)" class="key keypos-7">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 92)" class="key held keypos-8">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key held"/>
+</g>
+<g transform="translate(16, 158)" class="key keypos-9">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(50, 126)" class="key keypos-10">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(82, 126)" class="key keypos-11">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 126)" class="key keypos-12">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(148, 142)" class="key keypos-13">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(248, 142)" class="key keypos-14">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 126)" class="key keypos-15">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(314, 126)" class="key keypos-16">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 126)" class="key keypos-17">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(380, 158)" class="key keypos-18">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(50, 158)" class="key keypos-19">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(82, 158)" class="key keypos-20">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(116, 158)" class="key keypos-21">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(280, 158)" class="key keypos-22">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(314, 158)" class="key keypos-23">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(346, 158)" class="key keypos-24">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(132, 192)" class="key keypos-25">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(165, 192)" class="key keypos-26">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(231, 192)" class="key keypos-27">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
+</g>
+<g transform="translate(264, 192)" class="key keypos-28">
+<rect rx="60" ry="6" x="-6" y="-6" width="13" height="13" class="key"/>
 </g>
 </g>
 </g>

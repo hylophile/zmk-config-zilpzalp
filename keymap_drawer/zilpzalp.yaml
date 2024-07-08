@@ -10,14 +10,14 @@ layers:
   - U
   - Y
   - R
-  - {t: S, h: LALT}
-  - {t: T, h: LSHFT}
-  - {t: H, h: LCTRL}
-  - {t: K, h: LGUI}
-  - {t: X, h: LGUI}
-  - {t: N, h: RCTRL}
-  - {t: A, h: RSHFT}
-  - {t: I, h: LALT}
+  - {t: S, h: '$$test:alt$$'}
+  - {t: T, h: '$$test:shift$$'}
+  - {t: H, h: '$$test:control$$'}
+  - {t: K, h: '$$test:gui$$'}
+  - {t: X, h: '$$test:gui$$'}
+  - {t: N, h: '$$test:control$$'}
+  - {t: A, h: '$$test:shift$$'}
+  - {t: I, h: '$$test:alt$$'}
   - O
   - C
   - G
@@ -25,7 +25,7 @@ layers:
   - M
   - {t: ',', s: ;}
   - {t: ., s: ':'}
-  - {t: LSHIFT, h: numbers}
+  - {t: '$$test:shift$$', h: numbers}
   - {t: '$$mdi:keyboard-space$$', h: navigation}
   - {t: E, h: symbols}
   - {t: '$$mdi:keyboard-tab$$', h: function}
@@ -38,10 +38,10 @@ layers:
   - '7'
   - '8'
   - '9'
-  - {t: +, h: LCTRL}
-  - {t: '-', h: LALT}
-  - {t: '*', h: LGUI}
-  - {t: /, h: LSHFT}
+  - {t: +, h: '$$test:control$$'}
+  - {t: '-', h: '$$test:alt$$'}
+  - {t: '*', h: '$$test:gui$$'}
+  - {t: /, h: '$$test:shift$$'}
   - RALT
   - ''
   - '4'
@@ -67,10 +67,10 @@ layers:
   - Ctl+ INSERT
   - Sft+ INSERT
   - INSERT
-  - {t: LCTRL, h: sticky}
-  - {t: LALT, h: sticky}
-  - {t: LGUI, h: sticky}
-  - {t: LSHFT, h: sticky}
+  - {t: '$$test:control$$', h: sticky}
+  - {t: '$$test:alt$$', h: sticky}
+  - {t: '$$test:gui$$', h: sticky}
+  - {t: '$$test:shift$$', h: sticky}
   - $$mdi:volume-low$$
   - $$mdi:volume-off$$
   - $$mdi:arrow-left-bold$$
@@ -175,11 +175,9 @@ combos:
   l: [aptmak]
   a: bottom
   o: 0.25
-- p: [0, 2]
+- p: [9, 18]
   k: SCH
   l: [aptmak]
-  a: top
-  o: 0.25
 - p: [15, 22]
   k: '! ?'
   l: [aptmak]
@@ -196,7 +194,7 @@ combos:
   k: ''''
   l: [aptmak]
 - p: [14, 21]
-  k: $$mdi:keyboard-esc$$
+  k: $$test:escape$$
   l: [aptmak]
 - p: [0, 9]
   k: '{'
@@ -223,13 +221,17 @@ combos:
   k: '}'
   l: [aptmak]
 - p: [11, 14]
-  k: Caps Word
+  k: '&caps_word'
   l: [aptmak]
+  a: bottom
+  o: -0.5
+  draw_separate: true
 - p: [0, 7]
   k: $$mdi:apple-keyboard-caps$$
   l: [aptmak]
   a: top
   o: 0.5
+  draw_separate: true
 - p: [10, 19]
   k: {t: '$$mdi:backspace-outline$$', type: backspace}
   l: [aptmak]

@@ -84,7 +84,7 @@ combo_##NAME { \
         COMBO(oe, &oe, 17 26)
         COMBO(ue, &ue, 6 26)
         COMBO(sz, &sz, 9 25)
-        COMBO(sch, &sch, 0 2)
+        COMBO(sch, &sch, 9 18)
         COMBO(qexcl, &qexcl, 15 22)
         COMBO(slash, &kp SLASH, 22 23)
         COMBO(dash, &kp MINUS, 21 22)
@@ -180,7 +180,7 @@ combo_##NAME { \
             label = "layer and sticky";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping-term-ms = <200>;
+            tapping-term-ms = <150>;
             // quick-tap-ms = <100>;
             bindings = <&mo>, <&skq>;
         };

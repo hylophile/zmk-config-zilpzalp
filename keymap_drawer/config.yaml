@@ -7,7 +7,7 @@ draw_config:
   key_rx: 60.0
   key_ry: 6.0
   dark_mode: false
-  n_columns: 1
+  n_columns: 2
   separate_combo_diagrams: false
   combo_diagrams_scale: 2
   inner_pad_w: 10.0
@@ -40,18 +40,51 @@ draw_config:
     mdi: https://raw.githubusercontent.com/Templarian/MaterialDesign-SVG/master/svg/{}.svg
     mdil: https://raw.githubusercontent.com/Pictogrammers/MaterialDesignLight/master/svg/{}.svg
     material: https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/{}/default/48px.svg
-  glyphs: {}
+    test: file:///home/n/keebs/svg/{}.svg
+  # glyphs:
+  #   control: <svg
+  #     id="mdi-ship-wheel"
+  #     viewBox="0 0 24 24"
+  #     version="1.1"
+  #     width="24"
+  #     height="24"
+  #     xmlns="http://www.w3.org/2000/svg"
+  #     xmlns:svg="http://www.w3.org/2000/svg"
+  #     xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  #     <g
+  #     id="layer1"
+  #     style="opacity:1;stroke:#000000;stroke-opacity:1">
+  #     <circle
+  #     style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+  #     id="path1"
+  #     cx="12"
+  #     cy="12"
+  #     r="8" />
+  #     <path
+  #     style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+  #     d="M 12,23 C 12,15.666667 12,8.3333333 12,1"
+  #     id="path2" />
+  #     <path
+  #     style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+  #     d="M 2.4263237,17.527003 C 8.8084964,13.842219 15.190669,10.157436 21.572841,6.4726521"
+  #     id="path3" />
+  #     <path
+  #     style="opacity:1;fill:none;stroke:#000000;stroke-width:2;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill"
+  #     d="M 2.4263237,6.4726521 C 8.8084964,10.157436 15.190669,13.842219 21.572841,17.527003"
+  #     id="path4" />
+  #     </g>
+  #     </svg>
 parse_config:
   # preprocess: true
   # skip_binding_parsing: false
   # raw_binding_map:
-    # '&ae':
-    #   # shifted: $$mdi:alpha-w-box$$
-    #   tap: L2
-      # hold: $$mdi:gesture-tap-hold$$
-    # SPACE:
-    #   tap: AAAA
-  zmk_combos: 
+  # '&ae':
+  #   # shifted: $$mdi:alpha-w-box$$
+  #   tap: L2
+  # hold: $$mdi:gesture-tap-hold$$
+  # SPACE:
+  #   tap: AAAA
+  zmk_combos:
     combo_ae:
       key:
         tap: Ä
@@ -68,8 +101,9 @@ parse_config:
       key:
         tap: SCH
     combo_caps:
-      key:
-        tap: Caps Word
+      draw_separate: true
+    combo_capslock:
+      draw_separate: true
     combo_qexcl:
       key:
         tap: "! ?"
@@ -98,15 +132,18 @@ parse_config:
   zmk_remove_keycode_prefix: [KP_]
   zmk_keycode_map:
     # Modifiers
-    # LCTRL: $$mdi:apple-keyboard-control$$
-    # LALT: $$mdi:apple-keyboard-option$$
-    # LSHIFT: $$mdi:apple-keyboard-shift$$
-    # LSHFT: $$mdi:apple-keyboard-shift$$
+    LCTRL: $$test:control$$
+    RCTRL: $$test:control$$
+    LGUI: $$test:gui$$
+    # LCTRL: $$mdi:ship-wheel$$
+    LALT: $$test:alt$$
+    LSHIFT: $$test:shift$$
+    LSHFT: $$test:shift$$
+    RSHIFT: $$test:shift$$
+    RSHFT: $$test:shift$$
     # LCMD: $$mdi:apple-keyboard-command$$
     # RCTRL: $$mdi:apple-keyboard-control$$
     # RALT: $$mdi:apple-keyboard-option$$
-    # RSHIFT: $$mdi:apple-keyboard-shift$$
-    # RSHFT: $$mdi:apple-keyboard-shift$$
     # RCMD: $$mdi:apple-keyboard-command$$
     # # "Meh" key
     # LS(LC(LALT)): $$mdi:star-three-points$$
@@ -121,7 +158,7 @@ parse_config:
     ENTER:
       type: enter
       tap: $$mdi:keyboard-return$$
-    ESC: $$mdi:keyboard-esc$$
+    ESC: $$test:escape$$
     TAB: $$mdi:keyboard-tab$$
     LS(TAB): $$mdi:keyboard-tab-reverse$$
     SPACE: $$mdi:keyboard-space$$
