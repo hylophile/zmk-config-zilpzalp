@@ -6,10 +6,11 @@ export zmk_board := "seeeduino_xiao_ble"
 export zmk_shield := keyboard + "_ble"
 
 flash_target_dir := "/run/media" / env('USER') / automounted_as
-nametag := keyboard + "_firmware"
+nametag := zmk_shield + "_firmware"
 
 flash: build
     #!/usr/bin/env bash
+    set -euxo pipefail
     printf "Flashing: Looking for '{{flash_target_dir}}'."
     for i in {1..30}
     do
@@ -28,16 +29,36 @@ flash: build
     echo "Directory '{{flash_target_dir}}' did not appear within 30 seconds."
     exit 1
 
-build:
-    podman build . \
-        --build-arg zmk_board \
-        --build-arg zmk_shield \
-        --tag {{nametag}}
+build: build_prepare
+    podman build \
+        --file Containerfile \
+        --tag {{nametag}} \
+        --build-arg zmk_shield
     podman run --name {{nametag}} --replace --detach -t {{nametag}}
     podman cp {{nametag}}:/app/zmk.uf2 ./build/{{nametag}}.uf2
     podman stop {{nametag}}
     @echo ✅ Build Success!
+    
+[private]
+build_prepare:
+    #!/usr/bin/env bash
+    set -euxo pipefail
+    if podman image exists {{nametag}}_prepare; then
+        exit 0
+    else
+        podman build \
+            --file Containerfile.prepare \
+            --build-arg zmk_board \
+            --build-arg zmk_shield \
+            --tag {{nametag}}_prepare
+    fi
 
+rebuild: && build
+    podman build --no-cache \
+        --file Containerfile.prepare \
+        --build-arg zmk_board \
+        --build-arg zmk_shield \
+        --tag {{nametag}}_prepare
 
 export PATH := "../.venv/bin:" + env('PATH')
 keymap := "config" / keyboard + ".keymap"
