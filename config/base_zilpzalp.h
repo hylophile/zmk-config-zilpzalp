@@ -1,5 +1,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <zmk-helpers/helper.h>
 
 #define APT 0
 #define NUM 1
@@ -15,35 +16,54 @@
     continue-list = <UNDERSCORE MINUS BSPC LSHFT RSHFT>;
 };
 
-/ {
-    macros {
-        macro_sch: macro_sch {
-            label = "Macro_sch";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+ZMK_BEHAVIOR(sch, macro,
             bindings = <
         		    &macro_tap &kp S
         		    &macro_release &kp RSHIFT
         		    &macro_tap &kp C &kp H
 	          >;
-        };
-    };
-};
-    
-/ {
-    macros {
-        macro_qu: macro_sch {
-            label = "Macro_qu";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
+)
+
+ZMK_BEHAVIOR(qu, macro, 
             bindings = <
         		    &macro_tap &kp Q
         		    &macro_release &kp RSHIFT
         		    &macro_tap &kp U
 	          >;
-        };
-    };
-};
+)
+
+ZMK_BEHAVIOR(sklsft, macro, 
+            bindings = <
+        		    &macro_tap &sk LSHIFT
+	          >;
+)
+
+#define CMP RGUI
+
+ZMK_BEHAVIOR(ae, macro,
+    bindings = <&kp CMP &kp DQT &kp A>;
+)
+
+ZMK_BEHAVIOR(oe, macro,
+    bindings = <&kp CMP &kp DQT &kp O>;
+)
+
+ZMK_BEHAVIOR(ue, macro,
+    bindings = <&kp CMP &kp DQT &kp U>;
+)
+
+ZMK_BEHAVIOR(sz, macro,
+    bindings = <&kp CMP &kp S &kp S>;
+)
+
+
+
+// tap: qmark | shift + tap: excl
+ZMK_BEHAVIOR(qexcl, mod_morph,
+    bindings = <&kp QMARK>, <&kp EXCL>;
+    mods = <(MOD_LSFT|MOD_RSFT)>;
+)
+
 
 
 #define COMBO(NAME, BINDINGS, KEYPOS) \
@@ -60,15 +80,16 @@ combo_##NAME { \
          COMBO(q, &kp Q, 1 2)
         COMBO(z, &kp Z, 18 19)
         COMBO(v, &kp V, 0 1)
-        COMBO(_ae, &kp RA(A), 15 26)
-        COMBO(_oe, &kp RA(O), 17 26)
-        COMBO(_ue, &kp RA(U), 6 26)
-        COMBO(_sz, &kp RA(S), 9 25)
-        COMBO(sch, &macro_sch, 0 2)
+        COMBO(ae, &ae, 15 26)
+        COMBO(oe, &oe, 17 26)
+        COMBO(ue, &ue, 6 26)
+        COMBO(sz, &sz, 9 25)
+        COMBO(sch, &sch, 0 2)
+        COMBO(qexcl, &qexcl, 15 22)
         COMBO(slash, &kp SLASH, 22 23)
         COMBO(dash, &kp MINUS, 21 22)
 //        COMBO(enter, &kp ENTER, 21 22 23)
-        // COMBO(enter, &kp ENTER, 21 23)
+        COMBO(enter, &kp ENTER, 11 20)
         COMBO(sqt, &kp SQT, 16 23)
         COMBO(esc, &kp ESC, 14 21)
 /* parentheticals */
@@ -84,9 +105,9 @@ combo_##NAME { \
         COMBO(caps, &caps_word, 11 14)
         COMBO(capslock, &kp CAPSLOCK, 0 7)
 /* deletion */
-        COMBO(bspc, &kp BSPC, 11 20)
-        COMBO(del, &kp DEL, 6 7)
-        COMBO(delword, &kp LC(BSPC), 5 7)
+        COMBO(bspc, &kp BSPC, 10 19)
+        // COMBO(del, &kp DEL, 6 7)
+        // COMBO(delword, &kp LC(BSPC), 5 7)
 /* alternative shifting */
     };
 };
@@ -129,6 +150,7 @@ combo_##NAME { \
             hold-trigger-key-positions = <0 1 2 3 8 9 10 11 12 18 19 20 24 25 26 27>;
         };
 
+        // weird bugs?????????????
         my_lt: my_layer_taps {
             compatible = "zmk,behavior-hold-tap";
             label = "my layer taps";
@@ -138,9 +160,29 @@ combo_##NAME { \
             tapping-term-ms = <150>;
             quick-tap-ms = <100>;
             // global-quick-tap;
-            bindings = <&mo &kp>, <&kp>;
+            bindings = <&mo &kp>;
             // non-thumb keys
             // hold-trigger-key-positions = <0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23>;
+        };
+
+        skq: sticky_key_quick_release {
+            compatible = "zmk,behavior-sticky-key";
+            label = "STICKY_KEY_QUICK_RELEASE";
+            #binding-cells = <1>;
+            bindings = <&kp>;
+            release-after-ms = <1000>;
+            quick-release;
+            ignore-modifiers;
+        };
+
+        mosk: layer_and_sticky {
+            compatible = "zmk,behavior-hold-tap";
+            label = "layer and sticky";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            // quick-tap-ms = <100>;
+            bindings = <&mo>, <&skq>;
         };
 
         dotcol: dot_colon {

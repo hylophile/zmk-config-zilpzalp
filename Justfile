@@ -11,9 +11,10 @@ svg := board + ".svg"
 wdraw:
     watchexec \
         --ignore {{svg}} \
+        --ignore {{parsed}} \
         'just draw'
 
-draw:
+draw: parse
     keymap --config {{config}} \
         draw \
         {{parsed}} \
