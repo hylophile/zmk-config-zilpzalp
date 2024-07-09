@@ -128,7 +128,6 @@
     behaviors {
         hl: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods left";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
@@ -141,7 +140,6 @@
 
         hr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods right";
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
@@ -154,14 +152,12 @@
 
         dotcol: dot_colon {
             compatible = "zmk,behavior-mod-morph";
-            label = "DOT_COL";
             #binding-cells = <0>;
             bindings = <&kp DOT>, <&kp COLON>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         comsem: comma_semicolon {
             compatible = "zmk,behavior-mod-morph";
-            label = "COM_SEM";
             #binding-cells = <0>;
             bindings = <&kp COMMA>, <&kp SEMI>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
@@ -184,7 +180,6 @@
         compatible = "zmk,keymap";
 
         aptmak {
-            label = "APT";
 
             bindings = <
                                &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp U          &kp Y
@@ -194,7 +189,6 @@
             >;
         };
         numbers {
-            label = "NUM";
 
             bindings = <
                                &kp N9         &kp N8         &kp N7         &none          &kp PLUS       &kp N7         &kp N8         &kp N9
@@ -204,7 +198,6 @@
             >;
         };
         navigation {
-            label = "NAV";
 
             bindings = <
                                &kp INSERT     &kp UP         &kp BSPC        &kp C_VOL_DN   &kp C_VOL_UP   &kp BSPC       &kp DEL        &kp INSERT
@@ -214,7 +207,6 @@
             >;
         };
         symbols {
-            label = "SYM";
 
             bindings = <
                                &kp GRAVE      &kp DQT        &kp RA(LS(SEMI)) &kp LBRC       &kp RBRC       &kp BACKSLASH  &kp PIPE       &kp LT
@@ -224,7 +216,6 @@
             >;
         };
         function {
-            label = "FUN";
 
             bindings = <
                                &trans         &trans         &trans         &trans         &kp F12        &kp F7         &kp F8         &kp F9

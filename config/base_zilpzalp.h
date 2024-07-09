@@ -125,7 +125,6 @@ combo_##NAME { \
     behaviors {
         hl: homerow_mods_left {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods left";
             #binding-cells = <2>;
             // flavor = "tap-preferred";
             flavor = "balanced";
@@ -138,8 +137,8 @@ combo_##NAME { \
         };
         hr: homerow_mods_right {
             compatible = "zmk,behavior-hold-tap";
-            label = "homerow mods right";
             #binding-cells = <2>;
+            
             // flavor = "tap-preferred";
             flavor = "balanced";
             tapping-term-ms = <150>;
@@ -153,8 +152,8 @@ combo_##NAME { \
         // weird bugs?????????????
         my_lt: my_layer_taps {
             compatible = "zmk,behavior-hold-tap";
-            label = "my layer taps";
             #binding-cells = <2>;
+            
             // flavor = "tap-preferred";
             flavor = "balanced";
             tapping-term-ms = <150>;
@@ -167,8 +166,8 @@ combo_##NAME { \
 
         skq: sticky_key_quick_release {
             compatible = "zmk,behavior-sticky-key";
-            label = "STICKY_KEY_QUICK_RELEASE";
             #binding-cells = <1>;
+            
             bindings = <&kp>;
             release-after-ms = <1000>;
             quick-release;
@@ -177,8 +176,8 @@ combo_##NAME { \
 
         mosk: layer_and_sticky {
             compatible = "zmk,behavior-hold-tap";
-            label = "layer and sticky";
             #binding-cells = <2>;
+            
             flavor = "tap-preferred";
             tapping-term-ms = <150>;
             // quick-tap-ms = <100>;
@@ -187,15 +186,15 @@ combo_##NAME { \
 
         dotcol: dot_colon {
             compatible = "zmk,behavior-mod-morph";
-            label = "DOT_COL";
             #binding-cells = <0>;
+            
             bindings = <&kp DOT>, <&kp COLON>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
         comsem: comma_semicolon {
             compatible = "zmk,behavior-mod-morph";
-            label = "COM_SEM";
             #binding-cells = <0>;
+            
             bindings = <&kp COMMA>, <&kp SEMI>;
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };

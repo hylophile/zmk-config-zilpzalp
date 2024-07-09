@@ -20,8 +20,6 @@
         compatible = "zmk,keymap";
 
         aptmak {
-            label = "APT";
-
             bindings = <
                                &kp W          &kp F          &kp P          &kp B          &kp J          &kp L          &kp U          &kp Y
                 &kp R          &hl LALT S     &hl LSHFT T    &hl LCTRL H    &hl LGUI K     &hr LGUI X     &hr RCTRL N    &hr RSHFT A    &hr LALT I     &kp O
@@ -30,8 +28,6 @@
             >;
         };
         numbers {
-            label = "NUM";
-
             bindings = <
                                   &none             &none                &none              &none          &none          &kp N7         &kp N8         &kp N9
                 &hl LCTRL KP_PLUS &hl LALT KP_MINUS &hl LGUI KP_ASTERISK &hl LSHFT KP_SLASH &kp RALT       &none          &kp N4         &kp N5         &kp N6         &kp DOT
@@ -40,8 +36,6 @@
             >;
         };
         navigation {
-            label = "NAV";
-
             bindings = <
                                &none          &none          &none           &kp C_VOL_UP   &kp LC(X)      &kp LC(INSERT) &kp LS(INSERT) &kp INSERT
                 &sk LCTRL      &sk LALT       &sk LGUI       &sk LSHFT       &kp C_VOL_DN   &kp C_MUTE     &kp LEFT       &kp DOWN       &kp UP         &kp RIGHT
@@ -50,8 +44,6 @@
             >;
         };
         symbols {
-            label = "SYM";
-
             bindings = <
                                &none          &none          &none            &none          &none          &none          &none          &none
                 &kp EXCL       &kp AT         &kp HASH       &kp DOLLAR       &none          &none          &kp AMPERSAND  &kp ASTERISK   &kp PERCENT    &kp CARET
@@ -61,8 +53,6 @@
         };
 #ifdef ZILPZALP_BLE_FLAG
         function {
-            label = "FUN";
-
             bindings = <
                                &bootloader    &trans         &bt BT_CLR_ALL &bt BT_PRV     &kp F12        &kp F7         &kp F8         &kp F9
                 &bootloader    &kp F12        &kp F11        &kp F10        &bt BT_NXT     &kp F11        &kp F4         &kp F5         &kp F6         &kp F10
@@ -72,8 +62,6 @@
 #endif
 #ifndef ZILPZALP_BLE_FLAG
         function {
-            label = "FUN";
-
             bindings = <
                                &bootloader    &trans         &trans         &trans         &kp F12        &kp F7         &kp F8         &kp F9
                 &bootloader    &kp F12        &kp F11        &kp F10        &trans         &kp F11        &kp F4         &kp F5         &kp F6         &kp F10
