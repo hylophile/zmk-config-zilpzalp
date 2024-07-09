@@ -41,17 +41,11 @@ build: build_prepare
     
 [private]
 build_prepare:
-    #!/usr/bin/env bash
-    set -euxo pipefail
-    if podman image exists {{nametag}}_prepare; then
-        exit 0
-    else
-        podman build \
-            --file Containerfile.prepare \
-            --build-arg zmk_board \
-            --build-arg zmk_shield \
-            --tag {{nametag}}_prepare
-    fi
+    podman build \
+        --file Containerfile.prepare \
+        --build-arg zmk_board \
+        --build-arg zmk_shield \
+        --tag {{nametag}}_prepare
 
 rebuild: && build
     podman build --no-cache \

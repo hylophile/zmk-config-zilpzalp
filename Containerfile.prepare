@@ -8,15 +8,24 @@ RUN west init --local app
 RUN west update
 
 WORKDIR /app/zmk/app
-COPY ./config /app/config
+COPY ./config/boards /app/config/boards
+COPY ./config/zmk-helpers /app/config/zmk-helpers
+COPY ./config/zmk-helpers-repo /app/config/zmk-helpers-repo
+RUN cp /app/config/boards/shields/zilpzalp_ble/zilpzalp_ble.keymap /app/config/zilpzalp.keymap
 
 ARG zmk_board
 ARG zmk_shield
+
 RUN west build \
   --board ${zmk_board} \
   -- \
   -DSHIELD=${zmk_shield} \
   -DZMK_CONFIG=/app/config \
   -DZMK_EXTRA_MODULES=/app/config/zmk-helpers-repo
+
+# COPY ./config/*.keymap /app/config
+COPY ./config/ /app/config/
+
+RUN west build --cmake
 
 ENTRYPOINT ["bash"]
